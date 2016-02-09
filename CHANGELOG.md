@@ -1,3 +1,26 @@
+<a name="0.2.0"></a>
+### 0.2.0 (2015-09-06)
+
+
+#### Notable Changes
+
+* We now honor the `.ts` extension. (Note: The code will not be typed by default)
+* If you provide a new `'es6'` filter, ECMAScript 2015 code will be generated
+* The route generator now uses the 'MyController' naming convention, instead of 'MyCtrl'
+* Will now prompt for a module name to use (ex: `'myApp.foo'` instead of `'myApp'`). Set `modulePrompt` to false to disable.
+
+#### Features
+
+* **gen:**
+  * prompt for module name when `config.modulePrompt` ([3bd75b3](https://github.com/DaftMonk/generator-ng-component/commit/3bd75b357f5563bf33d913ff4b23d8e0237689c7))
+  * make .ts files ([4c6a389](https://github.com/DaftMonk/generator-ng-component/commit/4c6a389e685f838796f2fe15aa0a8221ab03400f))
+* **route:** use a class and controllerAs if es6 filter present ([678c01f](https://github.com/DaftMonk/generator-ng-component/commit/678c01ffde5c59e38a15d6e74828c32ca5210535))
+
+#### Chore
+
+* **gen:** update yeoman-generator to `~0.20.3` ([51c560a](https://github.com/DaftMonk/generator-ng-component/commit/51c560a300738e3ce12ab0247d74f487bfc7437d))
+
+
 <a name="0.1.1"></a>
 ### 0.1.1 (2015-09-06)
 
